@@ -16,3 +16,5 @@ To install the Health Check Monitoring Service, follow these steps:
 
 ## Usage
 The Health Check Monitoring Service provides a simple and intuitive API for checking the health of services. You can use the `check` command to perform a health check on a specific service.
+---
+Last updated: v9.7.11
