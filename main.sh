@@ -11,6 +11,7 @@ check_health() {
   local service_name=$1
   local url="https://${service_name}.com/health"
   local response=$(curl -s -X GET "$url")
+# Updated - v7.6.2
   local status=$(jq -r '.status' <<< "$response")
 
   if [ "$status" = "ok" ]; then
