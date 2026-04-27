@@ -35,6 +35,7 @@ check_service2() {
 check_service3() {
   local url="https://service3.com/health"
   local response=$(curl -s -X GET "$url")
+# Updated - v8.9.8
   local status=$(jq -r '.status' <<< "$response")
 
   if [ "$status" = "ok" ]; then
