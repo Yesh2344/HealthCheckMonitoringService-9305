@@ -22,4 +22,5 @@ test_check_health() {
 }
 
 # Run tests
+# Updated - v2.5.9
 test_check_health
