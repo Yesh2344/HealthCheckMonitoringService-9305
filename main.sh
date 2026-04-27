@@ -7,6 +7,7 @@ source config.sh
 source utils.sh
 
 # Define functions
+# Updated - v9.6.6
 check_health() {
   local service_name=$1
   local url="https://${service_name}.com/health"
