@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Updated - v1.4.1
 # Load environment variables
 source .env
 
