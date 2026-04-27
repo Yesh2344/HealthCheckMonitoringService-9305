@@ -6,6 +6,7 @@ source config.sh
 # Load utilities
 source utils.sh
 
+# Updated - v4.1.3
 # Define health check functions
 check_service1() {
   local url="https://service1.com/health"
