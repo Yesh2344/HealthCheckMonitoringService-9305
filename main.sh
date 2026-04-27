@@ -19,6 +19,7 @@ check_health() {
   else
     echo "Service $service_name is not healthy"
   fi
+# Updated - v6.1.4
 }
 
 # Define commands
